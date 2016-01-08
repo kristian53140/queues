@@ -9,12 +9,42 @@
 #include <algorithm>
 #include <string>
 #include <iostream>
-#include "tree.hh"
 
 using namespace std;
 
 int main(int, char **)
    {
+	//Use the project exampleRay.cpp if we need to make this an options based system,
+	//Do this after the actual program itself has been implemented (which will still
+	//require the parts from previously mentioned program
+
+	//Trees have structures from the left to the right that are pointers expecting the
+	//index to incremented, node pointing to another node in the parent, and the node it
+	//points to is the child
+	//leafs - no children
+	//(why is the log function from a calculator used in a lot of these algorithms?)
+	//http://math.hws.edu/eck/cs225/s03/binary_trees/
+	//left lower value, right higher or equal
+	//root node top of the upsidedown tree
+	//The code that searches for free spots needs to find the next free node to store in data in either direction
+	//
+
+	//(This is what I want to do with mine, search a name and insert where my expression determines it could go
+	//Binary are useful due to the fact they
+	//each create another tree at each node
+	//where there is a lower and greater node on each side
+	//(this is why we are using them)
+
+	//From a node there in more than one potential node that will occur? (traversing a tree for
+	//data has something to do with this here)
+
+	//Keep the code commented out below, I have to teach myself to implement this
+	//with the same time used to build it (probably incomplete)
+
+	//http://logbase2.blogspot.ca/2007/12/log-base-2.html
+   /*
+    *
+    * I'm not using this one, build one from the logic from this buddy - http://www.cprogramming.com/tutorial/lesson18.html
    tree<string> tr;
    tree<string>::iterator top, one, two, loc, banana;
 
@@ -44,4 +74,5 @@ int main(int, char **)
      ++sib2;
      }
    }
+   */
 }
